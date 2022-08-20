@@ -35,7 +35,7 @@ ul {
   color: rgba(6, 6, 249, 0.6);
 }
 /* Background */
-#banner .bg-img1{
+#banner img{
     position: relative;
     height:50vh;
     width: 100%;
