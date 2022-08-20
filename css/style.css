@@ -40,16 +40,8 @@ ul {
     height:50vh;
     width: 100%;
     object-fit: cover;
-    object-position: center;
-}
-#banner .container-fluid::after{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    background:linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.7)) ;
+    object-position: 60% 0;
+    filter: brightness(50%);
 }
 /* Navbar */
 #nav-bar{
