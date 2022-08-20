@@ -37,11 +37,10 @@ ul {
 /* Background */
 #banner .bg-img1{
     position: relative;
-    background-image: url("/images/banner.jpg");
-    background-size: cover;
-    background-position: center;
     height:50vh;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 #banner .container-fluid::after{
     position: absolute;
